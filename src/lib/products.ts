@@ -1,11 +1,3 @@
-// =============================================================================
-// PRODUCTS DATA
-// =============================================================================
-// Edit prices, items, and categories here. Changes flow automatically into
-// the menu section on the homepage. Prices are indicative ranges — confirm
-// real pricing with the shop before going live.
-// =============================================================================
-
 export type Product = {
   name: string;
   description: string;

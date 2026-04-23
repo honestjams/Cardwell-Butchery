@@ -47,7 +47,7 @@ export default function Home() {
             <h1 className="rise rise-2 font-display tracking-tightest text-[3.25rem] leading-[0.95] sm:text-7xl md:text-[5.5rem] text-ink">
               Local fresh meat.
               <br />
-              <span className="italic text-burgundy" style={{ fontVariationSettings: "'SOFT' 100, 'WONK' 1" }}>
+              <span className="italic text-burgundy">
                 Cut by hand,
               </span>
               <br />
@@ -76,6 +76,7 @@ export default function Home() {
 
           <div className="md:col-span-5 relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-2xl shadow-burgundy/15 rise rise-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=900&q=85"
                 alt="Butcher at work, slicing fresh meat on a wooden block"
@@ -99,12 +100,12 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-5 sm:px-8">
           <p className="section-label text-burgundy mb-3 text-sm">01 — The shop</p>
           <h2 className="font-display tracking-tightest text-4xl sm:text-5xl md:text-6xl text-ink leading-[1.05] max-w-3xl">
-            We've been Cardwell's butcher long enough to know what you want
+            We&apos;ve been Cardwell&apos;s butcher long enough to know what you want
             <span className="italic text-sage"> before you ask.</span>
           </h2>
           <div className="mt-10 grid md:grid-cols-3 gap-10 md:gap-14 text-ink/80 text-base sm:text-lg leading-relaxed">
             <p>
-              The meat case changes with the season and what's good. The
+              The meat case changes with the season and what&apos;s good. The
               specials are made out the back, by hand, that morning. Nothing
               hides behind a label here.
             </p>
@@ -114,7 +115,7 @@ export default function Home() {
               know to grab a bag of the BBQ rissoles for the cabin.
             </p>
             <p>
-              If you can't see what you're after — ask. We'll cut it for you,
+              If you can&apos;t see what you&apos;re after — ask. We&apos;ll cut it for you,
               wrap it for you, and tell you exactly how to cook it.
             </p>
           </div>
@@ -131,7 +132,7 @@ export default function Home() {
             </p>
           </div>
           <h2 className="font-display tracking-tightest text-4xl sm:text-5xl md:text-6xl text-ink leading-[1.05] max-w-3xl mb-12 sm:mb-16">
-            Today's <span className="italic text-burgundy">selection.</span>
+            Today&apos;s <span className="italic text-burgundy">selection.</span>
           </h2>
 
           <div className="space-y-20 sm:space-y-28">
@@ -140,6 +141,7 @@ export default function Home() {
                 <div className={`md:col-span-5 ${i % 2 === 1 ? "md:order-2" : ""}`}>
                   <div className="sticky top-28">
                     <div className="aspect-[4/5] overflow-hidden rounded-sm shadow-xl shadow-burgundy/10">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={cat.image}
                         alt={cat.imageAlt}
@@ -182,7 +184,7 @@ export default function Home() {
 
           <div className="mt-20 sm:mt-24 text-center">
             <p className="font-display italic text-burgundy text-lg">
-              Don't see what you're after?
+              Don&apos;t see what you&apos;re after?
             </p>
             <p className="mt-2 text-ink/70 max-w-md mx-auto">
               Special orders, whole or half carcasses, party platters and
@@ -203,7 +205,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 sm:px-8">
           <p className="section-label text-burgundy mb-3 text-sm">03 — Find us</p>
           <h2 className="font-display tracking-tightest text-4xl sm:text-5xl md:text-6xl text-ink leading-[1.05] max-w-3xl mb-12 sm:mb-16">
-            Pop in. <span className="italic text-sage">We'll put the kettle on.</span>
+            Pop in. <span className="italic text-sage">We&apos;ll put the kettle on.</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-10 md:gap-16">

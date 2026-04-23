@@ -1,9 +1,3 @@
-// =============================================================================
-// SITE CONFIG
-// =============================================================================
-// All contact details and shop info live here. Edit once, updates everywhere.
-// =============================================================================
-
 export const site = {
   name: "Cardwell Butchery",
   tagline: "Local Fresh Meat Specialist",
