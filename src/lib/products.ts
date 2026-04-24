@@ -59,8 +59,8 @@ export const categories: Category[] = [
     title: "Lamb",
     blurb: "Sweet, grass-fed lamb cut to order.",
     image:
-      "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Lamb chops arranged on a serving board",
+      "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Lamb chops with fresh herbs on a board",
     items: [
       {
         name: "Lamb Cutlets",
