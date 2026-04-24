@@ -94,8 +94,8 @@ export const categories: Category[] = [
     title: "Pork",
     blurb: "Free-range when we can get it. Always fresh.",
     image:
-      "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Pork cuts on butcher paper",
+      "https://images.unsplash.com/photo-1611059263765-f57653f3bba3?auto=format&fit=crop&w=1200&q=80",
+    imageAlt: "Fresh raw pork cuts in a butcher shop",
     items: [
       {
         name: "Pork Loin Chops",
